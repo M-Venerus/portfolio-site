@@ -1835,6 +1835,7 @@ input[type="radio"] + label:before {
 
 a.image {
   overflow: hidden;
+  cursor: default;
 }
 a.image img {
   -moz-transition: -moz-transform 0.2s ease;
@@ -1846,7 +1847,8 @@ a.image:hover img {
   -moz-transform: scale(1.075);
   -webkit-transform: scale(1.075);
   -ms-transform: scale(1.075);
-  transform: scale(1.075);
+  transform: scale(1.0);
+  cursor: default;
 }
 
 /* List */
