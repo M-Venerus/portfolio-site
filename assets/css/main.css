@@ -1997,7 +1997,7 @@ ul.contact li:before {
   font-weight: 400;
 }
 ul.contact li:before {
-  color: #f56a6a;
+  color: #6aabf5;
   display: inline-block;
   font-size: 1.5em;
   height: 1.125em;
@@ -3057,7 +3057,7 @@ button:disabled,
 }
 #menu ul a:hover,
 #menu ul span:hover {
-  color: #f56a6a;
+  color: #6aabf5;
 }
 #menu ul a.opener,
 #menu ul span.opener {
@@ -3095,7 +3095,7 @@ button:disabled,
 }
 #menu ul a.opener:hover:before,
 #menu ul span.opener:hover:before {
-  color: #f56a6a;
+  color: #6aabf5;
 }
 #menu ul a.opener.active + ul,
 #menu ul span.opener.active + ul {
