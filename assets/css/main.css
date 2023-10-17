@@ -2662,6 +2662,14 @@ button:disabled,
     padding: 3em 0 1em 0;
   }
 }
+.resume-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.resume-date {
+  padding-top: 14px;
+}
 
 /* Sidebar */
 #search form {
@@ -2860,6 +2868,9 @@ button:disabled,
   }
   body.is-preload #sidebar {
     display: none;
+  }
+  .resume-date {
+    padding-top: 8px;
   }
 }
 @media screen and (max-width: 736px) {
